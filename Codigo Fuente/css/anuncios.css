@@ -1,0 +1,67 @@
+.site-header.inicio {
+    background-image: none; 
+    height: auto;
+    min-height: unset;
+}
+.casa_playa_text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info_casa_playa{
+    margin: 0 380px 0 ;
+}
+
+@media (max-width: 768px) {
+    .contenedor-anuncios {
+        grid-template-columns: 1fr 1fr; 
+    }
+    .contenedor-anuncios {
+        grid-template-columns: 1fr;
+    }
+
+    .barra {
+        flex-direction: column;
+    }
+    .info_casa_playa {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .casa_playa_text {
+        margin: 0;
+    }
+
+    .iconos-caracteristicas {
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 480px) {
+    .contenedor-anuncios {
+        grid-template-columns: 1fr; 
+    }
+
+    .navegacion {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contenedor-footer {
+        flex-direction: column;
+        text-align: center;
+    }
+    .precio {
+        font-size: 1.5rem;
+    }
+
+    .info_casa_playa {
+        margin: 0;
+    }
+
+    .iconos-caracteristicas li {
+        margin-right: 0.5rem;
+    }
+}

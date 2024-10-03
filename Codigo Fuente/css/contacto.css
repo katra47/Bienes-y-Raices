@@ -1,0 +1,45 @@
+.site-header.inicio {
+    background-image: none; 
+    height: auto;
+    min-height: unset;
+}
+
+.contenedor-formulario {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-left: 25%;
+}
+
+input[type="text"], 
+input[type="email"], 
+input[type="tel"], 
+input[type="date"], 
+input[type="time"], 
+select, 
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+
+
+
+.radio-group {
+    margin-bottom: 20px;
+}
+
+.enviar-btn {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
